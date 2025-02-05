@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos Online</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Eventos<span>Online</span></div>
+    <div class="search-bar">
+      <input type="text" placeholder="Busque o evento aqui">
+    </div>
+    <div class="icons">
+      <span>❤️</span>
+      <span>🔔</span>
+      <span>👤</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Events List -->
+    <div class="events-list">
+      <div class="event">
+        <img src="/img/gato-preto.png" alt="Evento">
+        <div>
+          <h4>Nome do evento</h4>
+          <span>15/02/2025 - 18:00 - 23:00</span>
+          <p>Blumenau, Santa Catarina</p>
+        </div>
+        
+      </div>
+      <div class="event">
+        <img src="/img/gato-preto.png" alt="Evento">
+        <div>
+          <h4>Nome do evento</h4>
+          <span>15/02/2025 - 18:00 - 23:00</span>
+          <p>Blumenau, Santa Catarina</p>
+        </div>
+      </div>
+      <div class="event">
+        <img src="/img/gato-preto.png" alt="Evento">
+        <div>
+          <h4>Nome do evento</h4>
+          <span>15/02/2025 - 18:00 - 23:00</span>
+          <p>Blumenau, Santa Catarina</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="form-section">
+      <form>
+        <div class="input-group">
+          <label for="event-name">Nome do evento</label>
+          <input type="text" id="event-name" placeholder="Coloque o nome aqui">
+        </div>
+        <div class="input-group">
+          <label for="event-location">Local do evento</label>
+          <input type="text" id="event-location" placeholder="Blumenau, Santa Catarina">
+        </div>
+        <div class="input-group">
+          <label for="event-description">Descrição do evento</label>
+          <textarea id="event-description" placeholder="O evento é um workshop sobre..."></textarea>
+        </div>
+        <div class="input-group">
+          <label for="event-capacity">Capacidade permitida</label>
+          <input type="number" id="event-capacity" placeholder="100 pessoas">
+        </div>
+        <div class="input-group">
+          <label for="event-start">Data de início</label>
+          <input type="datetime-local" id="event-start">
+        </div>
+        <div class="input-group">
+          <label for="event-end">Data de fim</label>
+          <input type="datetime-local" id="event-end">
+        </div>
+        <div class="input-group">
+          <label for="event-organizer">Organizador do evento</label>
+          <input type="text" id="event-organizer" placeholder="Pedro Design">
+        </div>
+        <div class="input-group">
+          <label for="event-type">Tipo de evento</label>
+          <select id="event-type">
+            <option>Workshop</option>
+            <option>Seminário</option>
+            <option>Palestra</option>
+          </select>
+        </div>
+        <div class="input-group full-width">
+          <label for="event-image">Crie a URL da sua imagem aqui</label>
+          <input type="text" id="event-image">
+        </div>
+        <div class="privacy">
+          <input type="checkbox" id="privacy-policy">
+          <label for="privacy-policy">Declaro estar ciente e integrado(a) com as <a href="#">Políticas de privacidade</a>.</label>
+        </div>
+        <button type="submit">Cadastre o seu evento</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Todos os direitos reservados - EventosOnline</p>
+  </footer>
+</body>
+</html>
